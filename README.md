@@ -1,11 +1,12 @@
 # Bridging Cross-View Gaps: A Spatial-Temporal Attentive Domain Adaptation Framework for View-Robust Traffic Accident Detection
 
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20TII-blue)]()
-[![Code](https://img.shields.io/badge/Code-PyTorch-red)](https://pytorch.org/)
 
 ## Abstract
 
 Video-based traffic accident detection has emerged as a key technology for traffic emergency response. However, existing methods are typically designed for specific viewpoints, leading to limited cross-view generalization capability. A unified accident detection system that works robustly across different viewpoints is crucial for cost-effective deployment. To this end, this paper proposes a spatial-temporal attentive domain adaptation framework for view-robust accident detection, addressing three main challenges in cross-view accident representation learning, i.e., appearance variations, temporal misalignment, and background interference. Specifically, we propose: (1) a progressive multi-granularity spatial domain adaptation method to handle viewpoint-induced appearance variations, (2) a temporal co-attention module for cross-view temporal alignment, and (3) a comprehensive contrastive learning approach with background suppression to enhance noise-robust motion feature learning. Experiments demonstrate significant improvements across various cross-view transfer settings, notably achieving a 13.88% F1-score improvement in the "Vehicle-mounted→UAV" transfer scenario, providing a practical solution for unified multi-viewpoint accident detection.
+
+![Framework Overview](1.png)
 
 ## Method Overview
 
@@ -77,7 +78,7 @@ To address cross-view traffic accident detection challenges, we propose a novel 
 - **Joint training benefits**: Multi-view joint training improves generalization compared to single-view training  
 - **Domain adaptation effectiveness**: Our method achieves **79.13% F1-score** on Joint-view→UAV, demonstrating **8.06% improvement** over naive joint training (71.07%)
 - **Consistent improvements**: Superior performance across all evaluation metrics compared to state-of-the-art methods
-
+![Experimental Results](2.png)
 ## Citation
 
 ```bibtex  
