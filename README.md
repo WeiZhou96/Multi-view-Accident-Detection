@@ -78,7 +78,9 @@ To address cross-view traffic accident detection challenges, we propose a novel 
 - **Joint training benefits**: Multi-view joint training improves generalization compared to single-view training  
 - **Domain adaptation effectiveness**: Our method achieves **79.13% F1-score** on Joint-view→UAV, demonstrating **8.06% improvement** over naive joint training (71.07%)
 - **Consistent improvements**: Superior performance across all evaluation metrics compared to state-of-the-art methods
+
 ![Experimental Results](2.png)
+
 ## Citation
 
 ```bibtex  
